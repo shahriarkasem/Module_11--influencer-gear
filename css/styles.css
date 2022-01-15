@@ -13,8 +13,9 @@ header{
 
 /* Influencer Journey style */
 .container-1{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
     margin-bottom: 150px;
 }
 .influencer-journey{
@@ -112,8 +113,9 @@ h1{
 
 /* extra part styles */
 .container-4{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
     margin-bottom: 100px
 }
 .container-info{
