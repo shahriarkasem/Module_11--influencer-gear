@@ -1,0 +1,10 @@
+/* Media Queries */
+
+/* Mobile devices */
+@media only screen and (max-width:688px) {
+    .container-1{
+       height: 100%;
+       flex-direction: column;
+       flex-wrap: wrap;
+    }
+}

@@ -153,13 +153,3 @@ footer h4{
    text-align: center;
    font-size: 36px;
 }
-
-/* Media Queries */
-
-/* Mobile devices */
-@media only screen and (max-width:688px) {
-    .container-1{
-        display: flex;
-        width: 80%;
-    }
-}
